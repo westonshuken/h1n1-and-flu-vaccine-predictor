@@ -62,9 +62,9 @@ This means that when the model predicts that someone received the H1N1 vaccine, 
 
 ### Confusion Matrix
 
-![Confusion Matrix 1]()
+![Confusion Matrix 1](images/confusionmatrix1.png)
 
-![Confusion Matrix 2]()
+![Confusion Matrix 2](images/confusionmatrix2.png)
 
 ### Feature Importance
 
@@ -79,8 +79,8 @@ Using this model, plus insights from the important features, the NYC Health Depa
 Our model provides great inference and predicts substantially better than the baseline, but there is room for improvement. We will need up-to-date data from the most recent pandemic and flu season. We are confident that our model could be used to predict the vaccination status of the next flu season, especially given the exclusive online application we designed for the NYC Health Department.
 
 ## Online Application
-* Describe online app
-![Mobile APP](images/MobileAPP.png)
+To deploy the final model, we created an online survey you can send to people for easy access, in time for the next flu season. Once the survey is completed, the model predicts whether the respondent will refuse or receive the vaccine, and this can direct your outreach on respondents who are predicted to not receive vaccination.
+![Web App](images/web_app.png)
 
 ## Business Proposal Summary
 
@@ -89,15 +89,13 @@ Our model provides great inference and predicts substantially better than the ba
   - Primary Care Physician recommends the seasonal flu vaccine
 #### 2. Increase Awareness of Virus and Vaccine
   - Gear campaign content towards 
-    - vaccine effectiveness, 
+    - vaccine effectiveness 
     - H1N1 Risk
     - Flu Risk
 #### 3. Incentives Uninsured Individuals
   - Provide incentive options for uninsured individuals to get vaccinated.
 
 ## Next steps
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
 #### 1. Collect Recent Data
   - The data we used to develop our model was over 10 years old, let us use recent data to better gain insights of the current landscape of vaccination patterns.
 #### 2. Deploy the Model & Application
@@ -116,11 +114,12 @@ Please contact the contributors to this analysis:
 
 **Repository Structure:**
 ```
-├── Data Preprocessing                     <- Team Member's individual notebooks 
-├── Data                                   <- Both sourced externally and generated from code 
-├── Images                                 <- Both sourced externally and generated from code 
+├── data preprocessing                     <- Team Member's individual notebooks 
+├── data                                   <- Both sourced externally and generated from code 
+├── images                                 <- Both sourced externally and generated from code 
 ├── .gitignore                             <- gitignore 
-├── index.ipynb                            <- Narrative documentation of analysis in Jupyter notebook
-├── gridsearch.ipynb                       <- Supplementary documentation of gridsesarching optimal parameters
+├── GridSearch.ipynb                       <- Supplementary documentation of gridsesarching optimal parameters
+├── GridSearchSMOTE.ipynb                  <- Supplementary documentation of gridsesarching optimal parameters using SMOTE
 ├── README.md                              <- The top-level README for reviewers of this project
+├── index.ipynb                            <- Narrative documentation of analysis in Jupyter notebook
 └── presentation.pdf                       <- PDF version of project presentation
