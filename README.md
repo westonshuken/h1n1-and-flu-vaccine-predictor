@@ -62,13 +62,13 @@ This means that when the model predicts that someone received the H1N1 vaccine, 
 
 ### Confusion Matrix
 
-![Confusion Matrix 1](images/matrix1.png)
+![Confusion Matrix 1]()
 
 ![Confusion Matrix 2]()
 
 ### Feature Importance
 
-![Feature Importance]()
+![Feature Importance](images/featureimportance.png)
 
 ## Results & Evaluation
 
