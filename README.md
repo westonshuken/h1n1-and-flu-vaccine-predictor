@@ -5,7 +5,7 @@
 
 
 ## Overview
-The United States flu and H1N1 vaccination rate is quite low ([50.2%](https://www.cdc.gov/flu/fluvaxview/coverage-2021estimates.htm). This poses a problem to general public health, especially considering the availability of vaccines and the effectiveness of flu vaccination. 
+The United States flu and H1N1 vaccination rate is quite low ([50.2%](https://www.cdc.gov/flu/fluvaxview/coverage-2021estimates.htm)). This poses a problem to general public health, especially considering the availability of vaccines and the effectiveness of flu vaccination. 
 
 Using data from we [Drive Data](https://www.drivendata.org/competitions/66/flu-shot-learning/data/), our team of data scientists developed a project predicting status of vaccination against H1N1 virus, to help understand factors related to vaccination patterns.
 
@@ -77,9 +77,7 @@ This means that when the model predicts that someone received the H1N1 vaccine, 
 
 ## Online Application
 
-![Web APP]()
-
-![Mobile APP]()
+![Mobile APP](images/MobileAPP.png)
 
 ## Business proposal
 #### 1. PCP Recommendation and Patient Education
@@ -108,11 +106,11 @@ Please contact the contributors to this analysis:
 
 **Repository Structure:**
 ```
-├── Data Preprocessing                                        <- Team Member's indivual notebooks 
-├── Data                                                      <- Both sourced externally and generated from code 
-├── Images                                                    <- Both sourced externally and generated from code 
-├── .gitignore                                                <- gitignore 
-├── index.ipynb                                               <- Narrative documentation of analysis in Jupyter notebook
-├── gridsearch.ipynb                                          <- Supplimentary documentation of gridsesarching optimal parameters
-├── README.md                                                 <- The top-level README for reviewers of this project
-└── presentation.pdf                                          <- PDF version of project presentation
+├── Data Preprocessing                     <- Team Member's indivual notebooks 
+├── Data                                   <- Both sourced externally and generated from code 
+├── Images                                 <- Both sourced externally and generated from code 
+├── .gitignore                             <- gitignore 
+├── index.ipynb                            <- Narrative documentation of analysis in Jupyter notebook
+├── gridsearch.ipynb                       <- Supplimentary documentation of gridsesarching optimal parameters
+├── README.md                              <- The top-level README for reviewers of this project
+└── presentation.pdf                       <- PDF version of project presentation
