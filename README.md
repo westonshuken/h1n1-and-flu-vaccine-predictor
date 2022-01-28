@@ -16,7 +16,7 @@ As a leading public health agency in New York, the NYC Health Department continu
 
 
 ## The Business Problem 
-The goal is to know what the most effective behaviors of people are to get vaccinated against the H1N1 flu virus and the seasonal flu viruses, knowing the key factors affecting the behavior and the motivations that encourage the citizens to get the vaccine, whether his/her education, age, employer affects their decision to get vaccinated or not. Also, if there is health insurance, physician recommendation, presence of chronic diseases, and working in the health care sector. Vaccination status also may be affected by human behaviors whether one is conservative or not as touching face, meeting others in a large gathering, not wearing the mask, and not washing hands.
+The goal is to know what the most effective behaviors of people are to get vaccinated against the H1N1 flu virus and the seasonal flu viruses, knowing the key factors affecting the behavior and the motivations that encourage the citizens to get the vaccine, whether his/her education, age, employer affects their decision to get vaccinated or not. Also, if there is health insurance, physician recommendation, presence of chronic diseases, and working in the health care sector. Vaccination status also may be affected by human behaviors whether one is conservative or not as touching their face, meeting others in a large gathering, not wearing the mask, and not washing hands.
 
 The main purpose of this algorithm is classification, meaning that this model should be able to take in attributes of the National 2009 H1N1 Flu and Seasonal Flu Survey dataset that shows whether the survey respondent received the seasonal flu vaccine, or whether the respondent received the H1N1 flu vaccine. The effectiveness of this classification model will be measured by how well it predicts the vaccinated individual based on his/her behavior and motivation characteristics.
 
@@ -103,7 +103,7 @@ Our model provides great inference and predicts substantially better than the ba
 #### 2. Deploy the Model & Application
   - Use the model to predict who may or may not get the vaccine next flu season.
   - Utilize the online application we created to mass survey individuals. 
-  - An iterative approach to surveying using the appliction will naturally collect more data which consequently will better our predictions and reveal more insights.
+  - An iterative approach to surveying using the application will naturally collect more data which consequently will better our predictions and reveal more insights.
 
 ---
 
@@ -116,11 +116,11 @@ Please contact the contributors to this analysis:
 
 **Repository Structure:**
 ```
-├── Data Preprocessing                     <- Team Member's indivual notebooks 
+├── Data Preprocessing                     <- Team Member's individual notebooks 
 ├── Data                                   <- Both sourced externally and generated from code 
 ├── Images                                 <- Both sourced externally and generated from code 
 ├── .gitignore                             <- gitignore 
 ├── index.ipynb                            <- Narrative documentation of analysis in Jupyter notebook
-├── gridsearch.ipynb                       <- Supplimentary documentation of gridsesarching optimal parameters
+├── gridsearch.ipynb                       <- Supplementary documentation of gridsesarching optimal parameters
 ├── README.md                              <- The top-level README for reviewers of this project
 └── presentation.pdf                       <- PDF version of project presentation
