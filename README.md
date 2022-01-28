@@ -34,13 +34,16 @@ The data was collected via list-assisted random-digit-dialing telephone survey o
 ### Analysis Graphs
 
 Behavioral Avoidance
-![Behavioral_Avoidance]()
+
+![Behavioral_Avoidance](images/behavioral.png)
 
 H1N1 Knowledge
-![Behavioral_Avoidance]()
+
+![Behavioral_Avoidance](images/h1n1.png)
 
 Education
-![Behavioral_Avoidance]()
+
+![Behavioral_Avoidance](images/education.png)
 
 ### Model Improvements
 We created many machine learning models using default algorithsm, these are our baseline models. Following, we hypertuned paramentes for optimal performance using a grid search cross validation technique. These are the following models we used:
@@ -49,6 +52,7 @@ We created many machine learning models using default algorithsm, these are our 
   - Random Forests
   - Extra Trees
   - Gradient Boosted
+  
 ![Model Improvements]()
 
 ### Precision
@@ -57,10 +61,13 @@ In our final model (using the ExtraTrees algorithm), we increased precision from
 This means that when the model predicts that someone received the H1N1 vaccine, it is correct 90% of the time, as opposed to the baseline, which was 75% of the time. 
 
 ### Confusion Matrix
+
 ![Confusion Matrix 1]()
+
 ![Confusion Matrix 2]()
 
 ### Feature Importance
+
 ![Feature Importance]()
 
 ## Results
@@ -69,7 +76,9 @@ This means that when the model predicts that someone received the H1N1 vaccine, 
   - Discovered features related to vaccination status.
 
 ## Online Application
+
 ![Web APP]()
+
 ![Mobile APP]()
 
 ## Business proposal
