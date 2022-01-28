@@ -70,29 +70,40 @@ This means that when the model predicts that someone received the H1N1 vaccine, 
 
 ![Feature Importance]()
 
-## Results
-  - Improved ability to predict vaccination status.
-  - Precision increased 75% ----> 90%.
-  - Discovered features related to vaccination status.
+## Results & Evaluation
+
+With our final model, we improved the ability to predict vaccination status by increasing precision from **75%** to **90%**. We can now better predict when someone actually has not received the H1N1 vaccine. Further, this model provided insights on key features related to vaccination status. 
+
+Using this model, plus insights from the important features, the NYC Health Department can target these individuals in their vaccination efforts.
+
+Our model provides great inference and predicts substantially better than the baseline, but there is room for improvement. We will need up-to-date data from the most recent pandemic and flu season. We are confident that our model could be used to predict the vaccination status of the next flu season, especially given the exclusive online application we designed for the NYC Health Department.
 
 ## Online Application
+* Describe online app
 ![Mobile APP](images/MobileAPP.png)
 
-## Business proposal
+## Business Proposal Summary
+
 #### 1. PCP Recommendation and Patient Education
-  - Recommend H1N1 vaccine
-  - Recommend seasonal flu vaccine
+  - Primary Care Physician recommends the H1N1 vaccine
+  - Primary Care Physician recommends the seasonal flu vaccine
 #### 2. Increase Awareness of Virus and Vaccine
-  - Real risks of getting the flu without vaccine
-  - Effectiveness of vaccine
+  - Gear campaign content towards 
+    - vaccine effectiveness, 
+    - H1N1 Risk
+    - Flu Risk
+#### 3. Incentives Uninsured Individuals
+  - Provide incentive options for uninsured individuals to get vaccinated.
 
 ## Next steps
+* What are some reasons why your analysis might not fully solve the business problem?
+* What else could you do in the future to improve this project?
 #### 1. Collect Recent Data
   - The data we used to develop our model was over 10 years old, let us use recent data to better gain insights of the current landscape of vaccination patterns.
-#### 2. Deploy the Model
+#### 2. Deploy the Model & Application
   - Use the model to predict who may or may not get the vaccine next flu season.
-  - Utilize the online application we created to survey individuals. 
-  - To better our predictions, we need to take an iterative approach in surveying more and collecting better data.
+  - Utilize the online application we created to mass survey individuals. 
+  - An iterative approach to surveying using the appliction will naturally collect more data which consequently will better our predictions and reveal more insights.
 
 ---
 
