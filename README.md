@@ -3,10 +3,17 @@
 
 ![Header Image](images/notebook_image.png)
 
-## Overview
-The United States flu vaccination rates are quite low (%%%). This poses a problem to general public health, especially considering the availability of vaccines and the effectiveness of flu vaccination. 
 
-Using data from we [Drive Data](https://www.drivendata.org/competitions/66/flu-shot-learning/data/), we created a prediction model for whether or not an individual would inoculate with the flu vaccine.
+## Overview
+The United States flu and H1N1 vaccination rate is quite low ([50.2%](https://www.cdc.gov/flu/fluvaxview/coverage-2021estimates.htm). This poses a problem to general public health, especially considering the availability of vaccines and the effectiveness of flu vaccination. 
+
+Using data from we [Drive Data](https://www.drivendata.org/competitions/66/flu-shot-learning/data/), our team of data scientists developed a project predicting status of vaccination against H1N1 virus, to help understand factors related to vaccination patterns.
+
+## Stakeholder
+As a leading public health agency in New York, the NYC Health Department continues to play a critical role in providing vaccinations. Our project, presenations, and machine learning model was created for the use by the NYC Health Department. 
+
+<img src="https://cdn.iccaastoria.org/wp-content/uploads/2020/05/13105526/nyc-health-logo.png" alt="NYC_Health_Logo" width="200"/>
+
 
 ## The Business Problem 
 The goal is to know what the most effective behaviours of people are to get vaccinated against the H1N1 flu virus and the seasonal flu viruses, knowing the key factors affecting the behaviour and the motivations that encourage the citizens to get the vaccine, whether his/her education, age, employer affects their decision to get vaccinated or not. Also, if there is a health insurance, physician recommendation, presence of the chronical diseases and working in the health care sector. It also may be affected by the human behaviours whether one is conservative or not as touching face, meet others in large gathering, not wearing the mask and not washing hands.
@@ -20,21 +27,56 @@ The main purpose of this algorithm is classification, meaning that this model sh
 -	Is the presence of chronical disease a factor pushing to be vaccinated?
 
 ## Data & Methods
-The data comes from the National 2009 H1N1 Flu Survey (NHFS) and contains the following answers provided by the respondants:
-- level of concern of H1N1 Vaccine
-- 
+The data comes from the National 2009 H1N1 Flu Survey (NHFS) and contains answers from respondants regarding demographic information, opinions on vaccinations, and behavioral information.
 
-"The NHFS was a list-assisted random-digit-dialing telephone survey of households, designed to monitor influenza immunization coverage in the 2009-10 season. The target population for the NHFS was all persons 6 months or older living in the United States at the time of the interview. Data from the NHFS were used to produce timely estimates of vaccination coverage rates for both the monovalent pH1N1 and trivalent seasonal influenza vaccines."
+The data was collected via list-assisted random-digit-dialing telephone survey of households. The target population was all persons 6 moths or older living in the United States. The survey produced estimates of vaccine coverage rates for both the monovalent pH1N1 and trivalent seasonal influenza vaccines. ([Original Source](https://ftp.cdc.gov/pub/health_statistics/NCHS/Datasets/nis/NHFS/NHFSPUF_README.TXT)) 
 
-## Stakeholder
-The Stakeholder is the CDC.  providing information and estimates, geared toward coordinating incentive campaigns
+### Analysis Graphs
+
+Behavioral Avoidance
+![Behavioral_Avoidance]()
+
+H1N1 Knowledge
+![Behavioral_Avoidance]()
+
+Education
+![Behavioral_Avoidance]()
+
+### Model Improvements
+We created many machine learning models using default algorithsm, these are our baseline models. Following, we hypertuned paramentes for optimal performance using a grid search cross validation technique. These are the following models we used:
+  - Logistic Regression
+  - Decision Trees
+  - Random Forests
+  - Extra Trees
+  - Gradient Boosted
+![Model Improvements]()
+
+### Precision
+In our final model (using the ExtraTrees algorithm), we increased precision from **75%** to **90%**.
+
+This means that when the model predicts that someone received the H1N1 vaccine, it is correct 90% of the time, as opposed to the baseline, which was 75% of the time. 
+
+### Confusion Matrix
+![Confusion Matrix 1]()
+![Confusion Matrix 2]()
 
 ## Business proposal
-
-
+#### 1. PCP Recommendation and Patient Education
+  - Recommend H1N1 vaccine
+  - Recommend seasonal flu vaccine
+#### 2. Increase Awareness of Virus and Vaccine
+  - Real risks of getting the flu without vaccine
+  - Effectiveness of vaccine
 
 ## Next steps
+#### 1. Collect Recent Data
+  - The data we used to develop our model was over 10 years old, let us use recent data to bettter gain isnights of the current landscape of vaccination patterns.
+#### 2. Deploy the Model
+  - Use the model to predict who may or may not get the vaccine next flu season.
+  - Utilize the online application we created to survey indiviudals. 
+  - To better our predictions, we need to take an iterative approach in surverying more and collected better data.
 
+---
 
 #### For more information
 Please contact the contributors to this analysis: 
@@ -49,6 +91,7 @@ Please contact the contributors to this analysis:
 ├── Data                                                      <- Both sourced externally and generated from code 
 ├── Images                                                    <- Both sourced externally and generated from code 
 ├── .gitignore                                                <- gitignore 
-├── Vaccine-Prediction.ipynb                                  <- Narrative documentation of analysis in Jupyter notebook
+├── index.ipynb                                               <- Narrative documentation of analysis in Jupyter notebook
+├── gridsearch.ipynb                                          <- Supplimentary documentation of gridsesarching optimal parameters
 ├── README.md                                                 <- The top-level README for reviewers of this project
 └── presentation.pdf                                          <- PDF version of project presentation
