@@ -53,7 +53,7 @@ We created many machine learning models using default algorithsm, these are our 
   - Extra Trees
   - Gradient Boosted
   
-![Model Improvements]()
+![Model Improvements](images/modelimprovements.png)
 
 ### Precision
 In our final model (using the ExtraTrees algorithm), we increased precision from **75%** to **90%**.
@@ -62,7 +62,7 @@ This means that when the model predicts that someone received the H1N1 vaccine, 
 
 ### Confusion Matrix
 
-![Confusion Matrix 1]()
+![Confusion Matrix 1](images/matrix1.png)
 
 ![Confusion Matrix 2]()
 
