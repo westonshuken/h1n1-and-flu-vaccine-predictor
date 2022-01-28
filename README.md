@@ -60,6 +60,18 @@ This means that when the model predicts that someone received the H1N1 vaccine, 
 ![Confusion Matrix 1]()
 ![Confusion Matrix 2]()
 
+### Feature Importance
+![Feature Importance]()
+
+## Results
+  - Improved ability to predict vaccination status.
+  - Precision increased 75% ----> 90%.
+  - Discovered features related to vaccination status.
+
+## Online Application
+![Web APP]()
+![Mobile APP]()
+
 ## Business proposal
 #### 1. PCP Recommendation and Patient Education
   - Recommend H1N1 vaccine
